@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="183" id="eKW-Nl-wgn" customClass="ToDoListTableCell" customModule="Guruji_Calendar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="183"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eKW-Nl-wgn" id="iqT-UV-GEq">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="182"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhK-h0-Mck">
+                        <rect key="frame" x="0.0" y="181" width="326" height="1"/>
+                        <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="YHS-iG-UaU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Pu-4a-ast">
+                        <rect key="frame" x="8" y="8" width="310" height="166"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deepak Jain" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGy-Hw-KJJ">
+                                <rect key="frame" x="12" y="5" width="78" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bfdbfxbxfbxfbxfbxfbxbb gsg" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Sq-up-kjy">
+                                <rect key="frame" x="12" y="29" width="178.5" height="16.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="Top Edge">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1Sq-up-kjy" secondAttribute="trailing" constant="12" id="3ax-LL-oQS"/>
+                            <constraint firstItem="1Sq-up-kjy" firstAttribute="top" secondItem="gGy-Hw-KJJ" secondAttribute="bottom" constant="8" id="EoB-Wi-1Ns"/>
+                            <constraint firstItem="1Sq-up-kjy" firstAttribute="leading" secondItem="8Pu-4a-ast" secondAttribute="leading" constant="12" id="SBc-jv-bmk"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="1Sq-up-kjy" secondAttribute="bottom" constant="8" id="adu-C5-VE3"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gGy-Hw-KJJ" secondAttribute="trailing" constant="12" id="bS8-XD-QcE"/>
+                            <constraint firstItem="gGy-Hw-KJJ" firstAttribute="leading" secondItem="8Pu-4a-ast" secondAttribute="leading" constant="12" id="uaA-5f-aTT"/>
+                            <constraint firstItem="gGy-Hw-KJJ" firstAttribute="top" secondItem="8Pu-4a-ast" secondAttribute="top" constant="5" id="z0s-hn-FyG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="8Pu-4a-ast" secondAttribute="bottom" constant="8" id="1H1-do-qdf"/>
+                    <constraint firstItem="8Pu-4a-ast" firstAttribute="top" secondItem="iqT-UV-GEq" secondAttribute="top" constant="8" id="5u7-nb-AKw"/>
+                    <constraint firstItem="8Pu-4a-ast" firstAttribute="leading" secondItem="iqT-UV-GEq" secondAttribute="leading" constant="8" id="DBL-pb-sDM"/>
+                    <constraint firstAttribute="bottom" secondItem="OhK-h0-Mck" secondAttribute="bottom" id="IWu-Ui-2YP"/>
+                    <constraint firstAttribute="trailing" secondItem="OhK-h0-Mck" secondAttribute="trailing" id="TcB-2F-hOq"/>
+                    <constraint firstItem="OhK-h0-Mck" firstAttribute="leading" secondItem="iqT-UV-GEq" secondAttribute="leading" id="l5Y-Kb-pbi"/>
+                    <constraint firstAttribute="trailing" secondItem="8Pu-4a-ast" secondAttribute="trailing" constant="8" id="xLC-TX-lsK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="lblDate" destination="gGy-Hw-KJJ" id="LO2-UY-GwF"/>
+                <outlet property="lblText" destination="1Sq-up-kjy" id="ROu-nn-QYl"/>
+            </connections>
+            <point key="canvasLocation" x="-109" y="-132.5"/>
+        </tableViewCell>
+    </objects>
+</document>

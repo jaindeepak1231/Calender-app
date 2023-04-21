@@ -1,0 +1,6 @@
+framework module Pods_Guruji_Calendar {
+  umbrella header "Pods-Guruji Calendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
